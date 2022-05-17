@@ -1,0 +1,2 @@
+SELECT start_date FROM UniversityEducationSystem.Project
+where start_date=any(SELECT buy_date FROM UniversityEducationSystem.LabInstrument);
