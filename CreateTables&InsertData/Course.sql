@@ -10,6 +10,4 @@ CREATE TABLE `UniversityEducationSystem`.`Course` (
   `building` VARCHAR(45) NULL,
   `class_no` TINYINT UNSIGNED NULL,
   `credits` TINYINT UNSIGNED NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE INDEX `course_timeslot_id_UNIQUE` (`course_timeslot_id` ASC) VISIBLE,
-  UNIQUE INDEX `finals_timeslot_id_UNIQUE` (`finals_timeslot_id` ASC) VISIBLE);
+  PRIMARY KEY (`id`));
